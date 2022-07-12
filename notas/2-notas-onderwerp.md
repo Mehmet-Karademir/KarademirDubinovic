@@ -5,7 +5,7 @@ Noteer in dit document je ideeën voor een onderwerp en onderzoeksvraag. Je hoef
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 (Onderzoeksvraag)
-Is het mogelijk dat beeldherkenning gebruikt wordt door de overheid bij het bestrijden van sluikstorten?
+Is beeldherkenningstechnologie ontwikkeld genoeg om de overheid te helpen bij het bestrijden van sluikstorten?
 
 -----------------------------------------------------------------------------------------------------------------
 (Hier willen we antwoord op)
