@@ -23,13 +23,13 @@
 %---------- Titel & auteur ----------------------------------------------------
 
 % TODO: (fase 2) geef werktitel van je eigen voorstel op
-\PaperTitle{Titel van het artikel}
+\PaperTitle{Is beeldherkenningstechnologie ontwikkeld genoeg om de overheid te helpen bij het bestrijden van sluikstorten?}
 % Dit is typisch de opdracht en het vak waarvoor dit artikel geschreven is, bv.
 % ``Verslag onderzoeksproject Onderzoekstechnieken 2018-2019''
 \PaperType{Paper Research Methods: onderzoeksvoorstel}
 
 % TODO: (fase 1) vul je eigen naam in als auteur, geef ook je emailadres mee!
-\Authors{Steven Stevens\textsuperscript{1}, Jan Janssens\textsuperscript{2}} % Authors
+\Authors{Mehmet Karademir\textsuperscript{1}, Nermin Dubinovic\textsuperscript{2}} % Authors
 
 % Als het hier effectief gaat om een voorstel voor de bachelorproef, dan ben je
 % hier verplicht de naam van je co-promotor in te vullen. Zoniet, dan kan je het
@@ -39,17 +39,15 @@
 % Contactinfo: Geef hier de contactgegevens van elke auteur van het artikel (en
 % indien van toepassing ook van de co-promotor).
 \affiliation{
-  \textsuperscript{1} \href{mailto:steven.stevens.u1234@student.hogent.be}{steven.stevens.u1234@student.hogent.be}}
+  \textsuperscript{1} \href{mailto:mehmet.karademir@student.hogent.be}{mehmet.karademir@student.hogent.be}}
 \affiliation{
-  \textsuperscript{2} \href{mailto:jan.janssens.u4321@student.hogent.be}{mailto:jan.janssens.u4321@student.hogent.be}
+  \textsuperscript{2} \href{mailto:nermin.dubinovic@student.hogent.be}{nermin.dubinovic@student.hogent.be}
 }
 
 %---------- Abstract ----------------------------------------------------------
 
 \Abstract{% TODO: (fase 6)
-Hier schrijf je de samenvatting van je artikel, als een doorlopende tekst van één paragraaf.
-
-Bij de sleutelwoorden geef je het onderzoeksdomein (= specialisatierichting in de opleiding), samen met andere sleutelwoorden die je werk beschrijven.
+Het bewust ontwijken van de ophaling van huisvuil of bedrijfsafval beter gekend als sluikstorten is in onze hedendaagse maatschappij een groot probleem. De hoeveelheid hiervan neemt elk jaar met enkele duizenden tonnen toe.  Via dit onderzoek zal er worden gekeken als beeldherkenningstechnologie ontwikkeld genoeg is om een meerwaarde te bieden bij het bestrijden hiervan.  Dit gebeurt via een praktisch onderzoek waarbij er een systeem is ontwikkeld dat capabel is om niet enkel sluikstorten te herkennen maar ook te melden met bijhorende informatie. Er wordt verwacht dat de technologie genoeg is ontwikkeld om een autonoom systeem te ontwerpen.
 }
 
 %---------- Onderzoeksdomein en sleutelwoorden --------------------------------
@@ -71,7 +69,7 @@ Bij de sleutelwoorden geef je het onderzoeksdomein (= specialisatierichting in d
 %
 % De andere sleutelwoorden zijn vrij te kiezen.
 
-\Keywords{Onderzoeksdomein; Sleutelwoord1; Sleutelwoord2; Sleutelwoord3}
+\Keywords{Machineleertechnieken en kunstmatige intelligentie; sluikstorten; beeldherkenning}
 \newcommand{\keywordname}{Sleutelwoorden} % Defines the keywords heading name
 
 %---------- Titel, inhoud -----------------------------------------------------
@@ -91,7 +89,16 @@ Bij de sleutelwoorden geef je het onderzoeksdomein (= specialisatierichting in d
 
 % TODO: (fase 2) introduceer je gekozen onderwerp, formuleer de onderzoeksvraag en deelvragen. Wat is de doelstelling (is die S.M.A.R.T.?), wat zal het resultaat zijn van het onderzoek (een Proof-of-Concept, een prototype, een advies, ...)? Waarom is het nuttig om dit onderwerp te onderzoeken?
 
-\lipsum[1-3]
+Sluikstorten in de hedendaagse wereld is een groot probleem. De hoeveelheid sluikstort steeg van 22.592 ton in 2015~\autocite{Bilsen2018} naar 26.789 ton in 2017 en naar 29.511 ton in 2019~\autocite{Wolf2020}.
+
+Sluikstorten is het bewust ontwijken van de ophaling van huisvuil of bedrijfsafval. Het gaat dan om afvalstoffen die gestort of achtergelaten worden: op plaatsen waar het niet mag, op momenten waarop dat niet is toegelaten en in de verkeerde bakken of containers.
+
+Via dit onderzoek trachten we te achterhalen indien de technologie genoeg ontwikkeld is om de overheid te helpen bij het bestrijden van sluikstorten. Dit willen we bereiken door gebruik te maken van camera’s met zelfgemaakte beeldherkenning.
+Deze technologie zou dan ook kunnen gebruikt worden voor gelijkaardige problemen zoals bij het herkennen van zwerfvuil. Aangezien dat deze twee beiden te maken hebben met het achterlaten van afval op plekken die hier niet voor bedoeld zijn, zou het in essentie mogelijk moeten zijn om gelijkaardige software te gebruiken voor beiden.
+
+Aangezien we gebruik maken van camera’s, zal er een reële kans zijn dat we biometrische beelden zullen verwerken. Om de privacy zo hoog mogelijk te houden, zullen we ervoor zorgen dat alle herkenbare menselijke kenmerken worden gecensureerd.
+Wanneer het systeem ondervindt dat er een incident heeft plaatsgevonden zal het de lokale autoriteiten verwittigen. De volgende informatie zal meegegeven worden: locatie, tijdstip, beeld van het incident. Mocht de politie dit verder willen onderzoeken, is de mogelijkheid er ook om de originele beelden op te vragen binnen de 30 dagen.
+
 
 \section{Overzicht literatuur}
 
@@ -100,21 +107,41 @@ Bij de sleutelwoorden geef je het onderzoeksdomein (= specialisatierichting in d
 % Refereren naar de literatuur kan met:
 % \autocite{BIBTEXKEY} -> (Auteur, jaartal)
 % \textcite{BIBTEXKEY} -> Auteur (jaartal)
-Voorbeeld van een referentie waar de auteursnaam geen onderdeel van de zin is~\autocite{Moore2002}.
+Sinds 2017 is de hoeveelheid sluikstort in Vlaanderen blijven toenemen. Sluikstortafval wordt meestal niet gerecycleerd, met als gevolg dat de materialenkringloop doorbroken wordt en er een negatieve impact is op het milieu~\autocite{Baryon2021}.
 
-\lipsum[4-9]
+De stad Antwerpen heeft als bestrijding tegen sluikstorten een automatische beeldherkenning functie toegevoegd aan zijn stedelijke meldingenapplicatie. De app is in staat om meerdere soorten sluikstort te herkennen  zoals matrassen, papier, pmd, computers en verschillende types zakken~\autocite{Antwerpen}.
 
+Sinds zijn introductie in de late jaren 1960 is beeldherkenning ver gekomen. Het is een subcategorie van computervisie en artificiële intelligentie die in staat is om objecten, plaatsen, acties en vele andere soorten elementen in beeld te identificeren en er conclusies uit te trekken. Het kan in verschillende mate van nauwkeurigheid worden uitgevoerd, afhankelijk van het soort informatie dat wordt gevraagd en het soort van beeldherkenningsmodel er werd gebruikt~\autocite{Ewan}.
+
+Een manier om aan beeldherkenning te doen is door gebruik te maken van traditionele computervisie. Deze manier vereist echter een hoog niveau aan deskundigheid aangezien het veel parameters bevat die handmatig bepaald moeten worden. Hierdoor is het ook voor zichzelf sprekend dat dit veel tijd in beslag neemt. Traditionele computervisie werkt als volgt, het is een opeenvolging van beeldfiltering, segmentatie, eigenschap-extractie en regel-gebaseerde classificatie~\autocite{Meel}.
+
+Een ander manier is door gebruik te maken van Machine Learning en Deep Learning. Hierbij wordt er gebruik gemaakt van algoritmes om modellen te trainen aan de hand van datasets. De kwaliteit van de gebruikte datasets spelen in grote rol in de nauwkeurigheid van een model~\autocite{Haponik2022}. Het is mogelijk om de algoritmes op te delen in 2 categorieën:
+
+\begin{itemize}
+    \item een-fase beeldherkenning
+    \item twee-fase beeldherkenningn
+\end{itemize}
+
+Twee-fase beeldherkenning gaat als volgt tewerk, eerst zal het algoritme objectkandidaten voorstellen en zal daarna aan objectclassificatie doen op basis van kenmerken van het object kandidaat. Deze algoritmes behalen de hoogste nauwkeurigheidsscores maar zijn trager dan een-fase beeldherkenningsalgoritmes.
+
+Bij een-fase beeldherkenning worden er geen objectkandidaten voorgesteld. Hierdoor zijn ze simpeler en sneller dan twee-fase beeldherkenning maar dat komt wel ten koste van nauwkeurigheid. Doordat ze sneller zijn, zijn ze ook beter geschikt voor real time toepassingen~\autocite{Boesch}.
+
+Volgens onderzoek dat werd uitgevoerd door tempera in verband met de inzet van camera’s tegen sluikstorten kunnen we concluderen dat de camera’s in staat zijn om sluikstort te detecteren. Over tien projecten waren de camera’s in staat om 868 vaststellingen van sluikstort te detecteren. De camera’s wisten verschillende soorten sluikstort zoals glazen ruiten, zakken en plastic potten te herkennen~\autocite{Albertijn2019}.
+
+De Openbare Vlaamse Afvalstoffenmaatschappij (OVAM) heeft in 2021 onderzoek gedaan indien AI kan helpen bij het bestrijden van zwerfvuil op straat. Om te ondervinden als AI kan dienen als een goed monitoringsinstrument, zijn er eerst een aantal eisen opgesteld waaraan het moet voldoen. Op technisch vlak werd er getest naar de accuraatheid bij het herkennen van verschillende types zwerfvuil. 
+
+Hiernaast werd er op juridisch vlak ook nog extensief gekeken naar de wetgevingen in verband met privacy en GDPR. Uit onderzoek blijkt dat het op technisch vlak het mogelijk is om nauwkeurig na te trekken dat een bepaald object inderdaad zwerfvuil is. Op juridisch vlak vonden ze dat er geen significante uitdagingen waren~\autocite{Berth2011}.
 \section{Methodologie}
 
 % TODO: (fase 5) beschrijf in detail in welke fasen je onderzoek uiteenvalt, hoe lang elke fase duurt en wat het concrete resultaat van elke fase is. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor experimenten, vragenlijsten, simulaties? Je beschrijft ook al welke tools je denkt hiervoor te gebruiken of te ontwikkelen.
 
-\lipsum[10-12]
+methodologie
 
 \section{Verwachte conclusies}
 
 % TODO: (fase 6) beschrijf wat je verwacht uit je onderzoek en waarom (bv. volgens je literatuuronderzoek is softwarepakket A het meest gebruikte en denk je dat het voor deze casus ook het meest geschikt zal zijn). Natuurlijk kan je niet in de toekomst kijken en mag je geen alternatieve mogelijkheden uitsluiten. In de praktijk gebeurt het ook vaak dat een onderzoek tot verrassende resultaten leidt, dat maakt het proces nog interessanter!
 
-\lipsum[14-18]
+verwachte conclusies
 
 %------------------------------------------------------------------------------
 % Referentielijst
