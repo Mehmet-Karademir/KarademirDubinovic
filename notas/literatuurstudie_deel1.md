@@ -1,0 +1,5 @@
+Sinds 2017 is de hoeveelheid sluikstort in Vlaanderen blijven toenemen. Sluikstortafval wordt meestal niet gerecycleerd, met als gevolg dat de materialenkringloop doorbroken wordt en er een negatieve impact is op het milieu. (4)
+Beeldherkenningstechnologie is sinds zijn introductie in de late jaren 1960 ver gekomen. Dit zou een mogelijk hulpmiddel kunnen zijn bij het bestrijden van sluikstorten. (visua)
+Beeldherkenning is een subcategorie van computervisie en artificiële intelligentie (AI) die in staat is om objecten, plaatsen, acties en vele andere soorten elementen in beeld te identificeren en er conclusies uit te trekken. Het kan in verschillende mate van nauwkeurigheid worden uitgevoerd, afhankelijk van welke algoritme er gebruikt is of het soort informatie dat gevraagd wordt. (deepomatic).
+Er zijn 2 verschillende manieren om een beeldherkenningsmodel op te stellen. Een optie is om gebruik te maken van machine learning modellen zoals SVMs, Bag of Feautures en viola-jones. Ook is het mogelijk om gebruik te maken van deep leaning, CNNs om exact te zijn
+
