@@ -93,10 +93,10 @@ Sluikstorten in de hedendaagse wereld is een groot probleem. De hoeveelheid slui
 
 Sluikstorten is het bewust ontwijken van de ophaling van huisvuil of bedrijfsafval. Het gaat dan om afvalstoffen die gestort of achtergelaten worden: op plaatsen waar het niet mag, op momenten waarop dat niet is toegelaten en in de verkeerde bakken of containers.
 
-Via dit onderzoek trachten we te achterhalen indien de technologie genoeg ontwikkeld is om de overheid te helpen bij het bestrijden van sluikstorten. Dit willen we bereiken door gebruik te maken van camera’s met zelfgemaakte beeldherkenning.
+Via dit onderzoek trachten we te achterhalen indien de technologie genoeg ontwikkeld is om de overheid te helpen bij het bestrijden van sluikstorten. Dit willen we bereiken door gebruik te maken van camera's met zelfgemaakte beeldherkenning.
 Deze technologie zou dan ook kunnen gebruikt worden voor gelijkaardige problemen zoals bij het herkennen van zwerfvuil. Aangezien dat deze twee beiden te maken hebben met het achterlaten van afval op plekken die hier niet voor bedoeld zijn, zou het in essentie mogelijk moeten zijn om gelijkaardige software te gebruiken voor beiden.
 
-Aangezien we gebruik maken van camera’s, zal er een reële kans zijn dat we biometrische beelden zullen verwerken. Om de privacy zo hoog mogelijk te houden, zullen we ervoor zorgen dat alle herkenbare menselijke kenmerken worden gecensureerd.
+Aangezien we gebruik maken van camera's, zal er een reële kans zijn dat we biometrische beelden zullen verwerken. Om de privacy zo hoog mogelijk te houden, zullen we ervoor zorgen dat alle herkenbare menselijke kenmerken worden gecensureerd.
 Wanneer het systeem ondervindt dat er een incident heeft plaatsgevonden zal het de lokale autoriteiten verwittigen. De volgende informatie zal meegegeven worden: locatie, tijdstip, beeld van het incident. Mocht de politie dit verder willen onderzoeken, is de mogelijkheid er ook om de originele beelden op te vragen binnen de 30 dagen.
 
 
@@ -109,39 +109,47 @@ Wanneer het systeem ondervindt dat er een incident heeft plaatsgevonden zal het 
 % \textcite{BIBTEXKEY} -> Auteur (jaartal)
 Sinds 2017 is de hoeveelheid sluikstort in Vlaanderen blijven toenemen. Sluikstortafval wordt meestal niet gerecycleerd, met als gevolg dat de materialenkringloop doorbroken wordt en er een negatieve impact is op het milieu~\autocite{Baryon2021}.
 
-De stad Antwerpen heeft als bestrijding tegen sluikstorten een automatische beeldherkenning functie toegevoegd aan zijn stedelijke meldingenapplicatie. De app is in staat om meerdere soorten sluikstort te herkennen  zoals matrassen, papier, pmd, computers en verschillende types zakken~\autocite{Antwerpen}.
+De stad Antwerpen heeft als bestrijding tegen sluikstorten een automatische beeldherkenningsfunctie toegevoegd aan zijn stedelijke meldingenapplicatie. De app is in staat om meerdere soorten sluikstort te herkennen  zoals matrassen, papier, pmd, computers en verschillende types zakken~\autocite{Antwerpen}.
 
-Sinds zijn introductie in de late jaren 1960 is beeldherkenning ver gekomen. Het is een subcategorie van computervisie en artificiële intelligentie die in staat is om objecten, plaatsen, acties en vele andere soorten elementen in beeld te identificeren en er conclusies uit te trekken. Het kan in verschillende mate van nauwkeurigheid worden uitgevoerd, afhankelijk van het soort informatie dat wordt gevraagd en het soort van beeldherkenningsmodel er werd gebruikt~\autocite{Ewan}.
+Sinds zijn introductie in de late jaren 1960 is beeldherkenning sterk geëvolueerd. Het is een subcategorie van computervisie en artificiële intelligentie die in staat is om objecten, plaatsen, acties en vele andere soorten elementen in beeld te identificeren en er conclusies uit te trekken. Het kan in verschillende mate van nauwkeurigheid worden uitgevoerd, afhankelijk van het soort informatie dat wordt gevraagd en het soort van beeldherkenningsmodel er werd gebruikt~\autocite{Ewan}.
 
-Een manier om aan beeldherkenning te doen is door gebruik te maken van traditionele computervisie. Deze manier vereist echter een hoog niveau aan deskundigheid aangezien het veel parameters bevat die handmatig bepaald moeten worden. Hierdoor is het ook voor zichzelf sprekend dat dit veel tijd in beslag neemt. Traditionele computervisie werkt als volgt, het is een opeenvolging van beeldfiltering, segmentatie, eigenschap-extractie en regel-gebaseerde classificatie~\autocite{Meel}.
+Een manier om aan beeldherkenning te doen is door gebruik te maken van traditionele computervisie. Deze manier vereist echter een hoog niveau aan deskundigheid aangezien het veel parameters bevat die handmatig bepaald moeten worden. Hierdoor is het ook vanzelfsprekend dat dit veel tijd in beslag neemt. Traditionele computervisie werkt als volgt: het is een opeenvolging van beeldfiltering, segmentatie, eigenschap-extractie en regel-gebaseerde classificatie~\autocite{Meel}.
 
-Een ander manier is door gebruik te maken van Machine Learning en Deep Learning. Hierbij wordt er gebruik gemaakt van algoritmes om modellen te trainen aan de hand van datasets. De kwaliteit van de gebruikte datasets spelen in grote rol in de nauwkeurigheid van een model~\autocite{Haponik2022}. Het is mogelijk om de algoritmes op te delen in 2 categorieën:
+Een andere manier is door gebruik te maken van Machine Learning en Deep Learning. Hierbij wordt er gebruik gemaakt van algoritmes om modellen te trainen aan de hand van datasets. De kwaliteit van de gebruikte datasets spelen een grote rol in de nauwkeurigheid van een model~\autocite{Haponik2022}. Het is mogelijk om de algoritmes op te delen in 2 categorieën:
 
 \begin{itemize}
     \item een-fase beeldherkenning
-    \item twee-fase beeldherkenningn
+    \item twee-fase beeldherkenning
 \end{itemize}
 
-Twee-fase beeldherkenning gaat als volgt tewerk, eerst zal het algoritme objectkandidaten voorstellen en zal daarna aan objectclassificatie doen op basis van kenmerken van het object kandidaat. Deze algoritmes behalen de hoogste nauwkeurigheidsscores maar zijn trager dan een-fase beeldherkenningsalgoritmes.
+Twee-fase beeldherkenning gaat als volgt tewerk: eerst zal het algoritme objectkandidaten voorstellen en zal daarna aan objectclassificatie doen op basis van kenmerken van het object kandidaat. Deze algoritmes behalen de hoogste nauwkeurigheidsscores maar zijn trager dan een-fase beeldherkenningsalgoritmes.
 
 Bij een-fase beeldherkenning worden er geen objectkandidaten voorgesteld. Hierdoor zijn ze simpeler en sneller dan twee-fase beeldherkenning maar dat komt wel ten koste van nauwkeurigheid. Doordat ze sneller zijn, zijn ze ook beter geschikt voor real time toepassingen~\autocite{Boesch}.
 
-Volgens onderzoek dat werd uitgevoerd door tempera in verband met de inzet van camera’s tegen sluikstorten kunnen we concluderen dat de camera’s in staat zijn om sluikstort te detecteren. Over tien projecten waren de camera’s in staat om 868 vaststellingen van sluikstort te detecteren. De camera’s wisten verschillende soorten sluikstort zoals glazen ruiten, zakken en plastic potten te herkennen~\autocite{Albertijn2019}.
+Volgens onderzoek dat werd uitgevoerd door Tempera in verband met de inzet van camera's tegen sluikstorten kunnen we concluderen dat de camera's in staat zijn om sluikstort te detecteren. Over tien projecten waren de camera's in staat om 868 vaststellingen van sluikstort te detecteren. De camera's wisten verschillende soorten sluikstort zoals glazen ruiten, zakken en plastic potten te herkennen~\autocite{Albertijn2019}.
 
 De Openbare Vlaamse Afvalstoffenmaatschappij (OVAM) heeft in 2021 onderzoek gedaan indien AI kan helpen bij het bestrijden van zwerfvuil op straat. Om te ondervinden als AI kan dienen als een goed monitoringsinstrument, zijn er eerst een aantal eisen opgesteld waaraan het moet voldoen. Op technisch vlak werd er getest naar de accuraatheid bij het herkennen van verschillende types zwerfvuil. 
 
-Hiernaast werd er op juridisch vlak ook nog extensief gekeken naar de wetgevingen in verband met privacy en GDPR. Uit onderzoek blijkt dat het op technisch vlak het mogelijk is om nauwkeurig na te trekken dat een bepaald object inderdaad zwerfvuil is. Op juridisch vlak vonden ze dat er geen significante uitdagingen waren~\autocite{Berth2011}.
+Hiernaast werd er op juridisch vlak ook nog extensief gekeken naar de wetgevingen in verband met privacy en GDPR. Uit onderzoek blijkt dat het op technisch vlak mogelijk is om nauwkeurig na te trekken dat een bepaald object inderdaad zwerfvuil is. Op juridisch vlak vonden ze dat er geen significante uitdagingen waren~\autocite{Berth2011}.
 \section{Methodologie}
 
 % TODO: (fase 5) beschrijf in detail in welke fasen je onderzoek uiteenvalt, hoe lang elke fase duurt en wat het concrete resultaat van elke fase is. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor experimenten, vragenlijsten, simulaties? Je beschrijft ook al welke tools je denkt hiervoor te gebruiken of te ontwikkelen.
 
-methodologie
+Het onderzoek bestaat uit vijf fases. De eerste fase bestaat uit het verzamelen van informatie omtrent: beeldherkenningsmodellen en libraries die een meerwaarde zouden kunnen bieden aan het systeem. Deze informatie zal verzameld worden door een grondige studie van vakliteratuur en artikels over artificiële intelligentie. De geschatte duurtijd van deze fase bedraagt twee weken.
+
+De volgende fase zal het verzamelen van trainingsdata zijn. Hiervoor zal er gebruik gemaakt worden van publieke datasets in combinatie met zelf verzamelde beeldmaterialen en de door de stad Antwerpen verkregen beelden mits goedkeuring. De duurtijd van deze fase is sterk afhankelijk van de aantal verzamelde beelden, we verwachten dat deze fase minimum drie tot maximum vijf weken zal duren.
+
+Tijdens de derde fase zal er een eerste opzet van het beeldherkenningssysteeem worden gemaakt. Hierbij zal gebruik gemaakt worden van bestaande machine learning en beeldherkenningslibraries aangevuld met zelfgeschreven code. De geschatte duurtijd van deze fase is maximum twee weken. 
+
+In de vierde fase zal het beeldherkenningssysteem extensief worden getest door nieuw beeldmateriaal te introduceren. In deze fase zullen ook eventuele bugs worden opgelost. De geschatte duurtijd van deze fase is vier weken.
+
+In de loop van de laatste fase kijken we naar hoe effectief het systeem is in het detecteren van incidenten met betrekking tot sluikstorten. Verder zal tijdens deze fase ook een verslag worden opgemaakt met de waarnemingen vanuit het onderzoek. De geschatte duurtijd is twee weken.
 
 \section{Verwachte conclusies}
 
 % TODO: (fase 6) beschrijf wat je verwacht uit je onderzoek en waarom (bv. volgens je literatuuronderzoek is softwarepakket A het meest gebruikte en denk je dat het voor deze casus ook het meest geschikt zal zijn). Natuurlijk kan je niet in de toekomst kijken en mag je geen alternatieve mogelijkheden uitsluiten. In de praktijk gebeurt het ook vaak dat een onderzoek tot verrassende resultaten leidt, dat maakt het proces nog interessanter!
 
-verwachte conclusies
+Er wordt verwacht dat beeldherkenningstechnologie genoeg is ontwikkeld om de overheid een meerwaarde te bieden bij het bestrijden tegen sluikstorten. Verder wordt er ook verwacht dat het niet mogelijk zal zijn om te garanderen dat er effectief gebruik zal worden gemaakt van de technologie. Aangezien er tijdens het onderzoek geen rekening zal worden gehouden met het financiële aspect en de gemoedsgesteldheid van het volk tegenover surveillance.
 
 %------------------------------------------------------------------------------
 % Referentielijst
@@ -152,5 +160,5 @@ verwachte conclusies
 
 \phantomsection
 \printbibliography[heading=bibintoc]
-
+\footnote{https://github.com/Mehmet-Karademir/KarademirDubinovic}
 \end{document}
